@@ -1,5 +1,7 @@
 import feedparser
+
 from flask import Flask
+from flask import render_template
 
 app = Flask(__name__)
 
@@ -19,20 +21,11 @@ def get_noticas(publication="bbc"):  # if nothing passed here, publication is BB
     for key in feed:
         print(key)
 
-    print()
-    print('ARTICULO 1')
-    articulo_1 = feed['entries'][0]
-    for key, val in articulo_1.items():
-        print(key, ':', val)
-
-    # DEVELOPMENT, should change
-    # remember get avoids not found mistakes
-    return f"""<html>
-    <body>
-        <h1> titulares de noticias de {publication.upper()} </h1>
-        <b>{articulo_1.get("title")}</b> <br/>
-        <i>{articulo_1.get("published")}</i> <br/>
-        <p>{articulo_1.get("summary")}<p/> <br/> """
+    # first arg file, second arg **arguments
+    # remember .get() avoids not found mistakes
+    return render_template("home.html",
+                           publication=publication,
+                           articulos=feed['entries'])
 
 
 if __name__ == "__main__":

@@ -1,3 +1,25 @@
-1. setup github page/acount
-2. create a new repository online
-2. setup github local for project
+TODO's
+
+DONE - 1. setup github page/acount - DONE
+DONE - 2. create a new repository online (tambien se puede hacer por command line) - DONE
+DONE - 3. local init, commit and push to github (comand line) - DONE
+
+4. setup remote server (virtual)
+5. copy pushes to remote server
+
+
+
+CODE
+
+DONE - 1. install feedparser - DONE
+DONE - 2. setup to recieve and show ONE rss feeds from BBC news page - DONE
+DONE - 3. show 1 headline from diferent news pages - WITH DINAMIC ROUTING - DONE
+4. setup jinja templates
+5. setup to recieve and show ALL rss feeds from BBC news page
+
+
+
+# EXTRAS TODO'S
+1. exception handlings
+
+
