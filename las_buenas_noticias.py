@@ -2,6 +2,7 @@ import feedparser
 
 from flask import Flask
 from flask import render_template
+from flask import request
 
 app = Flask(__name__)
 
@@ -12,8 +13,14 @@ FEEDS = {'bbc':"http://feeds.bbci.co.uk/news/rss.xml",
 
 
 @app.route("/")
-@app.route("/<publication>")    # anything passed here is 'publication', YOU ARE CREATING A VARIABLE to hold a string
-def get_noticas(publication="bbc"):  # if nothing passed here, publication is BBC
+def get_noticas():
+    # request.args grabs get requests, request.form grabs POST requests
+    query = request.args.get("publication") # the tag name given in the html form
+    if not query or query.lower() not in FEEDS:
+        publication = "bbc"
+    else:
+        publication = query.lower()
+
     # EXCEPTION HANDLING required
     feed = feedparser.parse(FEEDS[publication])
 

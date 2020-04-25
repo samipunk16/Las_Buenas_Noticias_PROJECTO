@@ -14,8 +14,17 @@ CODE
 DONE - 1. install feedparser - DONE
 DONE - 2. setup to recieve and show ONE rss feeds from BBC news page - DONE
 DONE - 3. show 1 headline from diferent news pages - WITH DINAMIC ROUTING - DONE
-4. setup jinja templates
-5. setup to recieve and show ALL rss feeds from BBC news page
+DONE - 4. setup jinja templates - DONE
+DONE - 5. setup to recieve and show ALL rss feeds from BBC news pagE - DONE
+
+DONE - 6. html form - add GET user input throug a submit box
+7. add POST user input
+DONE - 8. branching in Git
+9. reverting git
+10 gettitng stuff (key) for wrhter API
+11. parsing JSON
+12. using nd displaying wether data
+13. allowing user to customize city
 
 
 

@@ -6,11 +6,18 @@
 </head>
 <body>
     <h1> Noticias de {{publication}} </h1>
+
+    <form>
+        <input type="text" name="publication" placeholder="search" />
+        <input type="submit" value="submit" />
+    </form>
+
     {% for articulo in articulos %}
     <b> <a href="{{articulo.link}}">{{articulo.title}}</a></b> <br />
     <i> {{articulo.published}}</i><br />
     <p> {{articulo.summary}} </p>
     <hr />
     {% endfor %}
+
 </body>
 </html>
