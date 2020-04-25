@@ -20,7 +20,7 @@ DONE - 5. setup to recieve and show ALL rss feeds from BBC news pagE - DONE
 DONE - 6. html form - add GET user input throug a submit box
 7. add POST user input -- in new git BRANCH post-requests under commit "POST requests"
 DONE - 8. branching in Git
-9. reverting git
+DONE - 9. reverting git
 10 gettitng stuff (key) for wrhter API
 11. parsing JSON
 12. using nd displaying wether data
