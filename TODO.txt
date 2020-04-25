@@ -25,10 +25,17 @@ DONE - 10. gettitng the API key (registering) for OpenWeatherMap data - MY KEY 5
         http://api.openweathermap.org/data/2.5/
        weather?q={}&units=metric&appid=<your-api-key-here>
 DONE - 11. parsing JSON
-DONE - 12. using nd displaying wether data
+DONE - 12. using and displaying weather data
+DONE - 13. allowing user to customize city (city weather searchbox)
+DONE - 14. handle duplicate city names by displaying the country next to the city
 
-13. allowing user to customize city
-14. setting up OpenEchangeRates API
+15. setting up OpenEchangeRates API - online
+16. creating the parser function for exchange Api
+17. displaying the currency data
+18. adding user input for dynamicly selecting and displaying the Exchange data
+
+19. adding Cookies
+20. adding CSS
 
 
 

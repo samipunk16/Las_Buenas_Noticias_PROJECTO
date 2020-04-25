@@ -6,16 +6,22 @@
 </head>
 <body>
     <h1> Noticias </h1>
-    <h2> Current Weather </h2>
-    <p> City: <b>{{weather.city}}</b></p>
-    <p>{{weather.description}} | {{weather.temperature}}&#8451;</p>
-    <?-- | significa BITWISE OR .....    ,  &#8451; fijate en el azul, significa .....    -->
 
-    <h2> Noticias de {{publication}} </h2>
+    <h2> Current Weather </h2>
+    <p> City: <b>{{weather.city}}, {{weather.country}}</b></p>
+    <p>{{weather.description}} | {{weather.temperature}}&#8451;</p>
+    <?-- | aqui es solo pra display, no es Bitwise OR   ,  &#8451; fijate en el azul, significa signo de celsius    -->
+    <form>
+        <input type="text" name="city" placeholder="weather search" />
+        <input type="submit" value="submit" />
+    </form>
+
+    <h2> Noticias de: {{publication}} </h2>
     <form>
         <input type="text" name="publication" placeholder="search" />
         <input type="submit" value="submit" />
     </form>
+    <br />
 
     {% for articulo in articulos %}
     <b> <a href="{{articulo.link}}">{{articulo.title}}</a></b> <br />
