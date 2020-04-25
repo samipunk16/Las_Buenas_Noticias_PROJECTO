@@ -18,13 +18,17 @@ DONE - 4. setup jinja templates - DONE
 DONE - 5. setup to recieve and show ALL rss feeds from BBC news pagE - DONE
 
 DONE - 6. html form - add GET user input throug a submit box
-7. add POST user input -- in new git BRANCH post-requests under commit "POST requests"
+DONE - 7. add POST user input -- in new git BRANCH post-requests under commit "POST requests"
 DONE - 8. branching in Git
 DONE - 9. reverting git
-10 gettitng stuff (key) for wrhter API
-11. parsing JSON
-12. using nd displaying wether data
+DONE - 10. gettitng the API key (registering) for OpenWeatherMap data - MY KEY 52eae8bbb172a9887578373c388e145f
+        http://api.openweathermap.org/data/2.5/
+       weather?q={}&units=metric&appid=<your-api-key-here>
+DONE - 11. parsing JSON
+DONE - 12. using nd displaying wether data
+
 13. allowing user to customize city
+14. setting up OpenEchangeRates API
 
 
 

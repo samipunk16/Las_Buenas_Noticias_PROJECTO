@@ -5,8 +5,13 @@
     <title> Noticias </title>
 </head>
 <body>
-    <h1> Noticias de {{publication}} </h1>
+    <h1> Noticias </h1>
+    <h2> Current Weather </h2>
+    <p> City: <b>{{weather.city}}</b></p>
+    <p>{{weather.description}} | {{weather.temperature}}&#8451;</p>
+    <?-- | significa BITWISE OR .....    ,  &#8451; fijate en el azul, significa .....    -->
 
+    <h2> Noticias de {{publication}} </h2>
     <form>
         <input type="text" name="publication" placeholder="search" />
         <input type="submit" value="submit" />
