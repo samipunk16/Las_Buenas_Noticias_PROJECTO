@@ -18,7 +18,7 @@ DONE - 4. setup jinja templates - DONE
 DONE - 5. setup to recieve and show ALL rss feeds from BBC news pagE - DONE
 
 DONE - 6. html form - add GET user input throug a submit box
-7. add POST user input
+7. add POST user input -- in new git BRANCH "POST requests"
 DONE - 8. branching in Git
 9. reverting git
 10 gettitng stuff (key) for wrhter API
