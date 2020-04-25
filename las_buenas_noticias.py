@@ -15,8 +15,13 @@ FEEDS = {'bbc':"http://feeds.bbci.co.uk/news/rss.xml",
         'iol': 'http://www.iol.co.za/cmlink/1.640'}
 
 DEFAULTS = {'publication': 'bbc',
-            'city': 'London, UK'}
+            'city': 'London, UK',
+            'currency_from': 'GBP',
+            'currency_to': 'USD'}
 
+# WEATHER_URL = should be move here as a global constant
+
+CURRENCY_URL = 'http://openexchangerates.org//api/latest.json?app_id=f912952226584e9eb60726070557f382'
 
 def get_weather(query):
     # go to this URL to see the used JSON format, cambia q={} por q=London,uk
@@ -50,6 +55,16 @@ def get_noticas(query):
     feed = feedparser.parse(FEEDS[publication])
     return feed['entries']
 
+def get_rate(frm, to):
+    # open the currency_url so you understand how the currencies json file is configured
+    # its only USD from
+    all_currency = urllib.request.urlopen(CURRENCY_URL).read()
+
+    parsed = json.loads(all_currency).get('rates')
+    frm_rate = parsed.get(frm.upper())
+    to_rate = parsed.get(to.upper())
+    return to_rate/frm_rate
+
 
 @app.route("/")
 def home():
@@ -66,10 +81,23 @@ def home():
         city = DEFAULTS['city']
     weather = get_weather(city)
 
+    # - get customized currency based on user input or default
+    currency_from = request.args.get("currency_from")
+    if not currency_from:
+        currency_from = DEFAULTS['currency_from']
+
+    currency_to = request.args.get("currency_to")
+    if not currency_to:
+        currency_to = DEFAULTS['currency_to']
+    rate = get_rate(currency_from, currency_to)
+
     return render_template("home.html",
                            publication=publication,
                            articulos=articulos,
-                           weather=weather)
+                           weather=weather,
+                           currency_from=currency_from,
+                           currency_to=currency_to,
+                           rate=rate)
 
 
 if __name__ == "__main__":

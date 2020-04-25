@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ef0cd4-73a6-427c-89ba-77519ca6961f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/las_buenas_noticias.py" beforeDir="false" afterPath="$PROJECT_DIR$/las_buenas_noticias.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
@@ -53,16 +54,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="35" />
-          <entry key="html" value="717" />
-          <entry key="py" value="3443" />
-          <entry key="txt" value="1361" />
+          <entry key="html" value="774" />
+          <entry key="py" value="4179" />
+          <entry key="txt" value="1463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="717" />
-          <entry key="PLAIN_TEXT" value="1361" />
-          <entry key="Python" value="3478" />
+          <entry key="HTML" value="774" />
+          <entry key="PLAIN_TEXT" value="1463" />
+          <entry key="Python" value="4214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,25 +84,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+            <state relative-caret-position="330">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/las_buenas_noticias.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="365">
+              <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
-                <marker date="1587842817000" expanded="true" signature="571:1686" ph="..." />
-                <marker date="1587842817000" expanded="true" signature="1926:1927" ph="..." />
-                <marker date="1587842817000" expanded="true" signature="2021:2659" ph="..." />
+                <marker date="1587849654000" expanded="true" signature="802:1917" ph="..." />
+                <marker date="1587849654000" expanded="true" signature="2294:2516" ph="..." />
+                <marker date="1587849654000" expanded="true" signature="2513:2514" ph="..." />
+                <marker date="1587849654000" expanded="true" signature="2608:3755" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="214">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -134,9 +136,9 @@
       <list>
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$USER_HOME$/myDesktop/PROGRAMING/JUPITER NOTEBOOKS/Notebooks_Samir/Git Practice.ipynb" />
-        <option value="$PROJECT_DIR$/las_buenas_noticias.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/TODO.txt" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/las_buenas_noticias.py" />
       </list>
     </option>
   </component>
@@ -267,30 +269,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="214">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/las_buenas_noticias.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="365">
+          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <marker date="1587842817000" expanded="true" signature="571:1686" ph="..." />
-            <marker date="1587842817000" expanded="true" signature="1926:1927" ph="..." />
-            <marker date="1587842817000" expanded="true" signature="2021:2659" ph="..." />
+            <marker date="1587849654000" expanded="true" signature="802:1917" ph="..." />
+            <marker date="1587849654000" expanded="true" signature="2294:2516" ph="..." />
+            <marker date="1587849654000" expanded="true" signature="2513:2514" ph="..." />
+            <marker date="1587849654000" expanded="true" signature="2608:3755" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
         </state>
       </provider>
     </entry>
