@@ -8,7 +8,6 @@ DONE - 3. local init, commit and push to github (comand line) - DONE
 5. copy pushes to remote server
 
 
-
 CODE
 
 DONE - 1. install feedparser - DONE
@@ -33,10 +32,11 @@ DONE - 15. setting up OpenEchangeRates API - online
 DONE - 16. creating the parser function for exchange Api
 DONE - 17. implementing it in the existing code (route)
 DONE - 18. displaying the currency data
-19. adding user input for dynamically selecting and displaying the Exchange data
+DONE - 19. adding user input for dynamically selecting and displaying the Exchange data
 
-19. adding Cookies
-20. adding CSS
+DONE - 20. adding Cookies
+21. retrieving/using cookies
+22. adding CSS
 
 
 

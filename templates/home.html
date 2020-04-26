@@ -3,10 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title> Noticias </title>
+    <style>
+        html {
+                font-family: "Helvtica";
+                background: white;
+             }
+
+        body {
+                background: lightgrey;
+                max-width: 900px;
+                margin: 0 auto;
+             }
+
+        #header {
+                padding-top: 5px;
+                background: lightsteelblue;
+                }
+
+        #inner-header {
+                        padding-left: 10px;
+                       }
+
+        #main {
+                padding-left: 10px;
+              }
+              // especificamente lo que no esta agarrando son las llamadas a padding
+              // funciona si se le especifica px al numer del padding
+
+        input[type="text"], select {
+                                       color: grey;
+                                       border: 1px solid lightsteelblue;
+                                       height: 30px;
+                                       line-height:15px;
+                                       margin: 2px 6px 16px 0px;
+                                   }
+        input[type="submit"] {
+                               padding: 5px 10px 5px 10px;
+                               color: black;
+                               background: lightsteelblue;
+                               border: none;
+                               box-shadow: 1px 1px 1px #4C6E91;
+                           }
+
+        input[type="submit"]:hover{
+                                    background: steelblue;
+                                }
+    </style>
 </head>
 <body>
+<div id="header">
+    <div id="inner-header">
     <h1> Noticias </h1>
+    <p>Noticias. Tiempo. Moneda</p>
+        </div>
 
+    <hr />
+    </div>
+
+    <div id="main">
     <h2> Current Weather </h2>
     <p> City: <b>{{weather.city}}, {{weather.country}}</b></p>
     <p>{{weather.description}} | {{weather.temperature}}&#8451;</p>
@@ -51,6 +105,8 @@
     <p> {{articulo.summary}} </p>
     <hr />
     {% endfor %}
+
+</div>
 
 </body>
 </html>

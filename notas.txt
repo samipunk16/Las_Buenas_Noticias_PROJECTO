@@ -1,0 +1,203 @@
+
+
+
+GIT USANDOLO REMOTO PASOS SENCILLOS
+
+GIT - Trabajas en un Branch (master default), sobre el que agregas files y haces commits y pushes a github online
+
+GIT - Comandos para Setup
+
+sudo apt-get update
+sudo apt-get install git
+
+cd firstapp
+git init
+git remote add origin <your-git-url>
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+GIT - comandos comunes de trabajo
+
+	(opt) - echo '__pycache__/' >> .gitignore
+
+
+git add a_file.py
+	git add .				everything
+git commit -m "this commit name"		you can always commit en el mismo si todo va bien
+	commit -am ""
+
+git push -u origin master
+
+git status					-- que files no han sido commit o changed desde last commit, en que branch estamos
+git log
+git log --pretty=oneline
+
+git branch new-branch-name			branchesare for trying out code without altering the master (working) branch
+git checkout new-branch-name			no longer in master
+git checkout .					restore porject to last commited state, WHEN YOU MESS UP, abandons all changes since last commit
+
+git add branchs_files.py
+git commit –m "other branch other commit name"
+
+git checkout master				save new branch's changes and revert to master branch
+
+git reset --hard 4077bd				revert to a commit aand discard all more recent commits than this one
+
+git checkout 4077bd				enter unatached HEAD mode - do stuff without affecting the branch
+git checkout -b new_branch_name			turn changes into new branch in unatached HEAD mode
+
+rm -rf .git					delete repository, keep files
+
+
+Log in to your GitHub or BitBucket account and create a new repository called headlines
+2. On your local machine, create a new directory called headlines in your home directory or wherever you put the firstapp directory.
+4. In your terminal, change the directory to the headlines directory
+and initialize the Git repository by executing the following commands:
+       cd headlines
+       git init
+       git remote add origin <your headlines git URL>
+       git add headlines.py
+       git commit -m "initial commit"
+       git push –u origin master
+
+https://github.com/samipunk16/Las_Buenas_Noticias_PROJECTO
+
+GIT COMMANDS
+
+sudo apt-get update
+sudo apt-get install git
+
+cd firstapp
+git init
+git remote add origin <your-git-url>
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git add hello.py
+git commit -m "Initial commit"
+git push -u origin master
+
+
+BRANCHING
+	Think of a branch as being like a fork in a road, except
+we can at any time change our mind and go back to the decision point.
+
+previo
+git add headlines.py
+git add templates/home.html
+git commit -m "Using GET"
+git push origin master
+
+git branch post-requests
+git checkout post-requests
+
+we are now working in a new branch of our code base
+usually well eventually want to merge this branch back into our master branch, but in our case, we'll just abandon it once we're done with what we need.
+
+REVERTING
+(previo)
+git add headlines.py
+git add templates/home.html
+git commit –m "POST requests"
+
+
+git checkout master     (master es un branch, el principal con el que comienzas)
+
+To make a change to our code base that we're not sure if we want, we'll use
+Git's branch functionality.
+
+
+
+
+Change Change@app.route("/")to@app.route("/", methods=['GET',
+'POST'])
+
+ IN POST,
+
+The functionality should be exactly the same but WE DONT SEE ANY DATA IN THE URL
+
+USE GET if we want useres to share links that include the query. (copy paste del url)
+
+
+
+
+/<variable> from our user, it's a way of retrieving input that has some pretty heavy limitations.
+	need of requests (getting user input throug http get y http post
+
+	example.com/search?query=weather
+
+	The bit after the question mark represents a named GET argument. The name
+is query and the value, weather.
+
+	GET requests are, therefore, ideal for allowing our user to specify which publication to view
+
+
+
+First we create an HTML form element. By default, this will create an HTTP GET request
+
+
+a single text input which has the name publication. This name is important as the GET argument will use this. The placeholder is optional, but it will give our user a for. Finally, we have another input of type submit. This automatically creates a nice Submit button for our form which, when pressed, will grab any text in the input and submit it to our Python backend.
+
+input type text es un placehplder
+input type submit es un boton
+y van todos entro de un form tag
+
+para esta info simple que envia el usuario es GET (un simple query)
+
+para data personal, registro, o mucha data, un POST
+
+RECUERDA QUE PRE Y POST SON LOS USER REQUESTS, LA DATA STRING AL FINAL DE EL URL, SERVER LANGUAGE
+
+
+HTML FORMS USE GET BY DEFAULT
+	<form>
+        <input type.... />
+	</form>
+
+so we have to say explicitaly that we want to use POST instead
+
+
+	<form action="/" method="POST">
+
+
+en el objeto request, va el 'nombre' de la info string de usuario submited en un form
+metio ciudad, metio periodico, metio currency from o currency to
+
+
+los inputs y selects se relacionan por nombre, es lo que hace el envio del form con el submit,
+el 'name' del user elemnt (select, input type) es lo que reconoce y aarra el back end
+
+
+Maner Pro de ifs terniarios en jinja2
+option value={{currency}} {{'selected="selected"' if currency_to==currency}}>{{currency}}</option>
+
+lo mismo mas corto
+ <option value="{{currency}}" {{'selected' if currency_from==currency}}>{{currency}}</option>
+
+
+about cookies
+
+The two immediate problems are:
+	- Not remembering our users' choices even while they stay on our site
+􏰓􏰀	- Not remembering our users' choices after they close our site and revisit at a later stage
+
+
+ we'll use the datetime library from Python to set the lifespan of our soon-to-exist cookies
+we'll use Flask's make_response() function to create a response object that we can set cookies on
+
+
+now we create a RESPONSE OBJECT, more complex than just rendering a template with strings filled dynamicly
+para esto usamos make_response(), que a su vez usa render_template
+
+response = make_response(render_template("home.html", key=vals,,,,,)
+
+ahora puedes llamar a response.set_cookie(key=vals)
+
+y retrieve con request.cookies.get('key')
+
+Finally, we will return our response object, which contains the HTML for the rendered template, and our four cookie values. On loading the page, our user's browser will save the four cookies, and we'll be able to retrieve the values if the same user visits our application again.
+
+ If there is no explicit request (directly making a selection in the menu), we will look in the cookies to check whether we can grab a default from there.
