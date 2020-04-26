@@ -31,8 +31,8 @@ DONE - 14. handle duplicate city names by displaying the country next to the cit
 
 DONE - 15. setting up OpenEchangeRates API - online
 DONE - 16. creating the parser function for exchange Api
-17 - implementing it in the existing code (route)
-18. displaying the currency data
+DONE - 17. implementing it in the existing code (route)
+DONE - 18. displaying the currency data
 19. adding user input for dynamically selecting and displaying the Exchange data
 
 19. adding Cookies

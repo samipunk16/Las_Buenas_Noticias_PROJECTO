@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ef0cd4-73a6-427c-89ba-77519ca6961f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/las_buenas_noticias.py" beforeDir="false" afterPath="$PROJECT_DIR$/las_buenas_noticias.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
@@ -54,16 +53,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="35" />
-          <entry key="html" value="774" />
-          <entry key="py" value="4179" />
-          <entry key="txt" value="1463" />
+          <entry key="html" value="1135" />
+          <entry key="py" value="4302" />
+          <entry key="txt" value="1480" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="774" />
-          <entry key="PLAIN_TEXT" value="1463" />
-          <entry key="Python" value="4214" />
+          <entry key="HTML" value="1135" />
+          <entry key="PLAIN_TEXT" value="1480" />
+          <entry key="Python" value="4337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,33 +86,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/las_buenas_noticias.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-                <marker date="1587849654000" expanded="true" signature="802:1917" ph="..." />
-                <marker date="1587849654000" expanded="true" signature="2294:2516" ph="..." />
-                <marker date="1587849654000" expanded="true" signature="2513:2514" ph="..." />
-                <marker date="1587849654000" expanded="true" signature="2608:3755" ph="..." />
-              </folding>
+            <state relative-caret-position="333">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/las_buenas_noticias.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <marker date="1587850901000" expanded="true" signature="802:1917" ph="..." />
+                <marker date="1587850901000" expanded="true" signature="2294:2599" ph="..." />
+                <marker date="1587850901000" expanded="true" signature="2596:2597" ph="..." />
+                <marker date="1587850901000" expanded="true" signature="2691:3909" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="123">
+              <caret line="37" column="4" selection-start-line="20" selection-start-column="10" selection-end-line="37" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -137,15 +136,15 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$USER_HOME$/myDesktop/PROGRAMING/JUPITER NOTEBOOKS/Notebooks_Samir/Git Practice.ipynb" />
         <option value="$PROJECT_DIR$/TODO.txt" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/las_buenas_noticias.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="771" />
-    <option name="height" value="821" />
+    <option name="width" value="992" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +235,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="771" height="821" extended-state="0" />
+    <frame x="0" y="22" width="992" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24903226" />
@@ -250,7 +249,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27506426" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23110151" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.37017995" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -271,29 +270,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="333">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/las_buenas_noticias.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        <state relative-caret-position="329">
+          <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <marker date="1587849654000" expanded="true" signature="802:1917" ph="..." />
-            <marker date="1587849654000" expanded="true" signature="2294:2516" ph="..." />
-            <marker date="1587849654000" expanded="true" signature="2513:2514" ph="..." />
-            <marker date="1587849654000" expanded="true" signature="2608:3755" ph="..." />
+            <marker date="1587850901000" expanded="true" signature="802:1917" ph="..." />
+            <marker date="1587850901000" expanded="true" signature="2294:2599" ph="..." />
+            <marker date="1587850901000" expanded="true" signature="2596:2597" ph="..." />
+            <marker date="1587850901000" expanded="true" signature="2691:3909" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="37" column="4" selection-start-line="20" selection-start-column="10" selection-end-line="37" selection-end-column="4" />
         </state>
       </provider>
     </entry>
